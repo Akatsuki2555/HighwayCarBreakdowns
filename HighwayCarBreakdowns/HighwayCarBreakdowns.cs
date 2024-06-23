@@ -15,7 +15,7 @@ namespace HighwayCarBreakdowns
 
         public override string ID => "highwaycarbreakdowns";
 
-        public override string Version => "1.2.0";
+        public override string Version => "1.2.1";
 
         public override string Author => "アカツキ";
 
@@ -95,7 +95,7 @@ namespace HighwayCarBreakdowns
             _enableGUI = Settings.AddCheckBox(this, "enablegui", "Enable GUI", true);
 
             Settings.AddButton(this, "Author Socials",
-                () => { Application.OpenURL("https://linktr.ee/akatsuki2555"); });
+                () => { Application.OpenURL("https://akatsuki.nekoweb.org"); });
         }
 
         private SettingsCheckBox _enableGUI;
