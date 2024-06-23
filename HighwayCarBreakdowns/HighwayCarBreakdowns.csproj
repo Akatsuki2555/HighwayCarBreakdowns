@@ -31,10 +31,6 @@
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
-    <PropertyGroup>
-      <PostBuildEvent>copy HighwayCarBreakdowns.dll "F:\SteamLibrary\steamapps\common\My Summer Car\Mods"
-start steam://rungameid/516750</PostBuildEvent>
-    </PropertyGroup>
     <ItemGroup>
         <Reference Include="Assembly-CSharp">
           <HintPath>F:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp.dll</HintPath>
